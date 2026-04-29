@@ -863,6 +863,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>free-coding-models</strong> - Find the fastest coding LLM models in seconds</summary>
+
+- **Source**: source
+- **License**: MIT
+- **Homepage**: https://github.com/vava-nessa/free-coding-models
+- **Usage**: `nix run github:numtide/llm-agents.nix#free-coding-models -- --help`
+- **Nix**: [packages/free-coding-models/package.nix](packages/free-coding-models/package.nix)
+
+</details>
+<details>
 <summary><strong>git-surgeon</strong> - Git primitives for autonomous coding agents</summary>
 
 - **Source**: source
