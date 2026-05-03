@@ -1,5 +1,6 @@
 {
   lib,
+  flake,
   stdenv,
   fetchFromGitHub,
   fetchurl,
@@ -62,7 +63,7 @@ stdenv.mkDerivation rec {
     changelog = "https://github.com/vava-nessa/free-coding-models/releases/tag/v${version}";
     license = lib.licenses.mit;
     sourceProvenance = with lib.sourceTypes; [ fromSource ];
-    maintainers = [ ];
+    maintainers = with flake.lib.maintainers; [ djsnipa1 ];
     mainProgram = "free-coding-models";
     platforms = lib.platforms.all;
   };
