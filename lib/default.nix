@@ -117,6 +117,11 @@ inputs.nixpkgs.lib.extend (
         githubId = 5122800;
         name = "pikdum";
       };
+      djsnipa1 = {
+        github = "djsnipa1";
+        githubId = 118037;
+        name = "Chad Boyce";
+      };
     };
   }
 )
